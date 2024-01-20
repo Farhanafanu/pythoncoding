@@ -1,0 +1,30 @@
+list=["apple","orange","banana"]
+print(list)
+print(len(list))
+print(type(list))
+print(list[1])
+print(list[:-2])
+if "apple" in list:
+    print("yes")
+list[1]="grape"
+print(list)
+list.insert(2,"mango")
+print(list)
+list.append("chicku")
+print(list)
+list.extend("anar")
+print(list)
+list2=["cake","biriyani"]
+list.extend(list2)
+print(list)
+list3=[1,2,3,4,5]
+list.extend(list3)
+print(list)
+list.remove("mango")
+print(list)
+list.pop()
+print(list)
+del list[0]
+print(list)
+list.clear()
+print(list)

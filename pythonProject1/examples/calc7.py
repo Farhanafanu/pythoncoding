@@ -1,0 +1,11 @@
+set={"hai","hello","welcome"}
+set2={1,2,3}
+print(set)
+set.add("name")
+print(set)
+set.remove("hai")
+print(set)
+set.discard("hello")
+print(set)
+set3=set.union(set2)
+print(set3)
